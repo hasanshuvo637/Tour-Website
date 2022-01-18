@@ -1,0 +1,178 @@
+.logo{
+  position: fixed;
+  top: 4%;
+  left: 7%;
+}
+nav{
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  display: inline-block;
+  width: 100%;
+  padding: 100px 7% 0;
+  background: #000;
+  text-align: right;
+  max-height: 100px;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+nav .nav-links li{
+  margin: 10px 0;
+  display: block;
+}
+.registar-btn{
+  margin: 15px 0 30px;
+  display: inline-block;
+
+}
+nav .fa-bars{
+  display:block;
+  position: fixed;
+  top: 4%;
+  right: 7%;
+  color: rgb(207, 28, 118);
+  font-size: 28px;
+
+}
+.active::after{
+  left:-40px;
+  transform: translate(0, 50%);
+  bottom: 50%;
+}
+.hidemenu{
+  max-height: 300px;
+}
+.header h1{
+  padding-top: 200px;
+  font-size: 7vw;
+
+}
+.search-bar{
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px 10px 30px;
+  border-radius: 5px;
+  position: relative;
+}
+.search-bar form{
+  display: block;
+}
+.search-bar form input{
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+
+}
+.search-bar form button{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.sub-title{
+  font-size: 6vw;
+}
+.cta{
+  padding: 15% 5%;
+
+}
+.cta h3{
+  font-size: 7vw;
+  line-height: 8vw;
+}
+.cta p{
+  font-size: 14px;
+
+}
+.cta-btn{
+  padding: 6px 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.stories p{
+  font: size 22px; 
+}
+.about-msg{
+  font-size: 15px;
+  
+}
+nav .navbar-white .fa-bars{
+  color: #000;
+}
+/* ---------Home Listing--------- */
+
+.list-container{
+  margin-top: 150px;
+}
+.left-col, .right-col, .house-img, .house-info{
+  flex-basis: 100%;
+}
+.left-col h1{
+  font: size 22px; 
+}
+.house-info h3{
+  font-size: 18px;
+}
+.house-info i{
+  font-size: 16px;
+}
+.paggination span{
+  margin: 10px 2px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+}
+/* ------------House details .........  */
+.house-details{
+  margin-top: 150px;
+}
+.row p{
+  margin-top: 10px;
+}
+.gallery{
+  grid-template-areas: 'first first' '. .' '. .';
+}
+.small-details h2{
+  font-size: 20px;
+  margin-top: 24px;
+}
+.small-details h4{
+  text-align: left;
+  margin: 10px 0;
+  font-size: 18px;
+}
+.check-form{
+  padding: 10px 30px;
+}
+.check-form div{
+  padding: 20px 0;
+  width: 100%;
+}
+.check-form input{
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  padding-bottom: 5px;
+}
+.check-form button{
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+.host{
+  display: block;
+  line-height: 28px;
+}
+.host img{
+  width: 40%;
+}
+.host div p{
+  font-size: 19px;
+}
+.contact-host{
+  margin: 40px 0;
+}
